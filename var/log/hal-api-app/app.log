@@ -1,0 +1,1 @@
+[2018-03-22 00:11:12] Khigashiguchi\BearSundayWeekday.DEBUG: req:"post app://self/weekday" code:405 e:BEAR\Resource\Exception\MethodNotAllowedException(Khigashiguchi\BearSundayWeekday\Resource\App\Weekday::{(post}()) logref:25f4df0d [] []

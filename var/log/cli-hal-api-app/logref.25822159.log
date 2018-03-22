@@ -1,0 +1,69 @@
+Thu, 22 Mar 2018 00:07:25 +0000
+get app://self/weekday
+
+BEAR\Resource\Exception\ParameterException(year)
+ in file /Users/kazukihigashiguchi/src/github.com/Khigashiguchi.BearSundayWeekday/vendor/bear/resource/src/RequiredParam.php on line 26
+
+#0 /Users/kazukihigashiguchi/src/github.com/Khigashiguchi.BearSundayWeekday/vendor/bear/resource/src/NamedParameter.php(75): BEAR\Resource\RequiredParam->__invoke('year', Array)
+#1 /Users/kazukihigashiguchi/src/github.com/Khigashiguchi.BearSundayWeekday/vendor/bear/resource/src/NamedParameter.php(59): BEAR\Resource\NamedParameter->evaluateParams(Array, Array)
+#2 /Users/kazukihigashiguchi/src/github.com/Khigashiguchi.BearSundayWeekday/vendor/bear/resource/src/Invoker.php(59): BEAR\Resource\NamedParameter->getParameters(Array, Array)
+#3 /Users/kazukihigashiguchi/src/github.com/Khigashiguchi.BearSundayWeekday/vendor/bear/resource/src/Invoker.php(44): BEAR\Resource\Invoker->invokeMethod(Object(BEAR\Resource\Request), 'onGet')
+#4 /Users/kazukihigashiguchi/src/github.com/Khigashiguchi.BearSundayWeekday/vendor/bear/resource/src/AbstractRequest.php(150): BEAR\Resource\Invoker->invoke(Object(BEAR\Resource\Request))
+#5 /Users/kazukihigashiguchi/src/github.com/Khigashiguchi.BearSundayWeekday/bootstrap/bootstrap.php(9): BEAR\Resource\AbstractRequest->__invoke(Array)
+#6 /Users/kazukihigashiguchi/src/github.com/Khigashiguchi.BearSundayWeekday/bootstrap/api.php(3): require('/Users/kazukihi...')
+#7 {main}
+
+PHP Variables
+
+$_SERVER => Array
+(
+    [RBENV_VERSION] => 7.1.6
+    [PYENV_ROOT] => /Users/kazukihigashiguchi/.pyenv
+    [TERM] => xterm-256color
+    [SHELL] => /usr/local/bin/zsh
+    [TMPDIR] => /var/folders/07/v2j4hn5s1vz301j35pfw1vkm0000gp/T/
+    [Apple_PubSub_Socket_Render] => /private/tmp/com.apple.launchd.arynmOivtA/Render
+    [ZDOTDIR] => 
+    [ZSH] => /Users/kazukihigashiguchi/.oh-my-zsh
+    [USER] => kazukihigashiguchi
+    [RBENV_ROOT] => /Users/kazukihigashiguchi/.phpenv
+    [SSH_AUTH_SOCK] => /private/tmp/com.apple.launchd.ybfioADYPe/Listeners
+    [__CF_USER_TEXT_ENCODING] => 0x1F6:0x1:0xE
+    [PAGER] => less
+    [RBENV_HOOK_PATH] => /Users/kazukihigashiguchi/.phpenv/rbenv.d:/usr/local/etc/rbenv.d:/etc/rbenv.d:/usr/lib/rbenv/hooks
+    [LSCOLORS] => Gxfxcxdxbxegedabagacad
+    [PATH] => /Users/kazukihigashiguchi/.phpenv/versions/7.1.6/bin:/Users/kazukihigashiguchi/.phpenv/libexec:/Users/kazukihigashiguchi/.phpenv/plugins/php-build/bin:/Users/kazukihigashiguchi/google-cloud-sdk/bin:/Users/kazukihigashiguchi/src/hobby/rust/docbase-cli/target/debug:/Users/kazukihigashiguchi/go/bin:/usr/local/opt/libxml2/bin:/usr/local/opt/bison/bin:/Users/kazukihigashiguchi/.phpenv/shims:/Users/kazukihigashiguchi/.phpenv/bin:/Users/kazukihigashiguchi/.cargo/bin:/Users/kazukihigashiguchi/.composer/vendor/bin:/Users/kazukihigashiguchi/.pyenv/shims:/Users/kazukihigashiguchi/.pyenv/bin:/Users/kazukihigashiguchi/src/github.com/baseinc/basedev-docker/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS
+    [PWD] => /Users/kazukihigashiguchi/src/github.com/Khigashiguchi.BearSundayWeekday
+    [LANG] => ja_JP.UTF-8
+    [XPC_FLAGS] => 0x0
+    [RBENV_SHELL] => zsh
+    [XPC_SERVICE_NAME] => 0
+    [SSH_KEY_PATH] => ~/.ssh/rsa_id
+    [PYENV_SHELL] => zsh
+    [SHLVL] => 1
+    [HOME] => /Users/kazukihigashiguchi
+    [GOROOT] => /usr/local/Cellar/go/1.9.2/libexec
+    [RBENV_DIR] => /Users/kazukihigashiguchi/src/github.com/Khigashiguchi.BearSundayWeekday
+    [LESS] => -R
+    [LOGNAME] => kazukihigashiguchi
+    [LC_CTYPE] => ja_JP.UTF-8
+    [GOPATH] => /Users/kazukihigashiguchi/go
+    [RUBYLIB] => /Users/kazukihigashiguchi/.phpenv/rbenv.d/exec/gem-rehash:
+    [PHP_SELF] => bootstrap/api.php
+    [SCRIPT_NAME] => bootstrap/api.php
+    [SCRIPT_FILENAME] => bootstrap/api.php
+    [PATH_TRANSLATED] => bootstrap/api.php
+    [DOCUMENT_ROOT] => 
+    [REQUEST_TIME_FLOAT] => 1521677244.8834
+    [REQUEST_TIME] => 1521677244
+    [argv] => Array
+        (
+            [0] => bootstrap/api.php
+            [1] => get
+            [2] => /weekday
+        )
+
+    [argc] => 3
+)
+
+

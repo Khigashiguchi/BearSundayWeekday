@@ -1,0 +1,1 @@
+[2018-03-22 00:07:25] Khigashiguchi\BearSundayWeekday.DEBUG: req:"get app://self/weekday" code:400 e:BEAR\Resource\Exception\ParameterException(year) logref:25822159 [] []

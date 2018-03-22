@@ -1,0 +1,36 @@
+Thu, 22 Mar 2018 00:11:12 +0000
+post app://self/weekday
+
+BEAR\Resource\Exception\MethodNotAllowedException(Khigashiguchi\BearSundayWeekday\Resource\App\Weekday::{(post}())
+ in file /Users/kazukihigashiguchi/src/github.com/Khigashiguchi.BearSundayWeekday/vendor/bear/resource/src/Invoker.php on line 50
+
+#0 /Users/kazukihigashiguchi/src/github.com/Khigashiguchi.BearSundayWeekday/vendor/bear/resource/src/AbstractRequest.php(150): BEAR\Resource\Invoker->invoke(Object(BEAR\Resource\Request))
+#1 /Users/kazukihigashiguchi/src/github.com/Khigashiguchi.BearSundayWeekday/bootstrap/bootstrap.php(9): BEAR\Resource\AbstractRequest->__invoke(Array)
+#2 /Users/kazukihigashiguchi/src/github.com/Khigashiguchi.BearSundayWeekday/bootstrap/api.php(3): require('/Users/kazukihi...')
+#3 {main}
+
+PHP Variables
+
+$_SERVER => Array
+(
+    [DOCUMENT_ROOT] => /Users/kazukihigashiguchi/src/github.com/Khigashiguchi.BearSundayWeekday
+    [REMOTE_ADDR] => 127.0.0.1
+    [REMOTE_PORT] => 50174
+    [SERVER_SOFTWARE] => PHP 7.1.6 Development Server
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_NAME] => 127.0.0.1
+    [SERVER_PORT] => 8080
+    [REQUEST_URI] => /weekday?year=2001&month=1&day=1
+    [REQUEST_METHOD] => POST
+    [SCRIPT_NAME] => /weekday
+    [SCRIPT_FILENAME] => bootstrap/api.php
+    [PHP_SELF] => /weekday
+    [QUERY_STRING] => year=2001&month=1&day=1
+    [HTTP_HOST] => 127.0.0.1:8080
+    [HTTP_USER_AGENT] => curl/7.54.0
+    [HTTP_ACCEPT] => */*
+    [REQUEST_TIME_FLOAT] => 1521677472.452
+    [REQUEST_TIME] => 1521677472
+)
+
+
