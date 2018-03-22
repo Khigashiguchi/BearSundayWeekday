@@ -5,6 +5,8 @@ use BEAR\Package\PackageModule;
 use BEAR\Package\Provide\Router\AuraRouterModule;
 use josegonzalez\Dotenv\Loader as Dotenv;
 use Ray\Di\AbstractModule;
+use Psr\Log\LoggerInterface;
+use Ray\Di\Scope;
 
 class AppModule extends AbstractModule
 {
@@ -20,5 +22,6 @@ class AppModule extends AbstractModule
         ]);
         $this->install(new AuraRouterModule($appDir . '/var/conf/aura.route.php'));
         $this->install(new PackageModule);
+        $this->bind(LoggerInterface::class)->toProvider(MonologLoggerProvider::class)->in(Scope::SINGLETON);
     }
 }
